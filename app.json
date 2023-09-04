@@ -1,10 +1,27 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/home/index",
+    "pages/components/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "小程序示例"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "images/img_white_home.png",
+        "selectedIconPath": "images/img_home.png"
+      }, {
+        "pagePath": "pages/components/index",
+        "text": "组件示例",
+        "iconPath": "images/img_white_component.png",
+        "selectedIconPath": "images/img_component.png"
+      }
+
+    ]
   },
   "style": "v2",
   "renderer": "skyline",
